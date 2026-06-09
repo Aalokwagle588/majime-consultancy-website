@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="420" height="420">
+  <defs>
+    <!-- Gradient for book left page (orange to red) -->
+    <linearGradient id="bookGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E86A00;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#CC1500;stop-opacity:1"/>
+    </linearGradient>
+    <!-- Circular text path (top arc) -->
+    <path id="topArc" d="M 210,210 m -162,0 a 162,162 0 1,1 324,0"/>
+    <!-- Bottom arc for banner text -->
+    <path id="botArc" d="M 210,210 m -100,0 a 100,100 0 0,0 200,0"/>
+  </defs>
+
+  <!-- ── OUTER RING ── -->
+  <circle cx="210" cy="210" r="195" fill="white" stroke="none"/>
+
+  <!-- ── CIRCULAR COMPANY NAME TEXT ── -->
+  <text font-family="'Arial Black', Arial, sans-serif" font-size="21.5" font-weight="900" fill="#1B3CA0" letter-spacing="0.5">
+    <textPath href="#topArc" startOffset="4%">Majime International Education Pvt. Ltd.</textPath>
+  </text>
+
+  <!-- ══════════════════ GRADUATION CAP ══════════════════ -->
+  <!-- Mortarboard top board -->
+  <polygon points="210,58  285,88  210,118  135,88" fill="#111111"/>
+  <!-- Cap button / top square -->
+  <rect x="200" y="50" width="20" height="11" rx="2" fill="#111111"/>
+  <!-- Right tassel string -->
+  <line x1="285" y1="88" x2="285" y2="122" stroke="#111111" stroke-width="2.5"/>
+  <!-- Tassel end -->
+  <circle cx="285" cy="126" r="5" fill="#111111"/>
+  <line x1="285" y1="131" x2="285" y2="145" stroke="#111111" stroke-width="2"/>
+  <line x1="285" y1="145" x2="280" y2="155" stroke="#111111" stroke-width="1.5"/>
+  <line x1="285" y1="145" x2="285" y2="156" stroke="#111111" stroke-width="1.5"/>
+  <line x1="285" y1="145" x2="290" y2="155" stroke="#111111" stroke-width="1.5"/>
+
+  <!-- ══════════════════ OPEN BOOK ══════════════════ -->
+  <!-- Left page -->
+  <path d="M 138,168 Q 145,158 210,163 L 210,272 Q 145,277 138,268 Z" fill="url(#bookGrad)"/>
+  <!-- Right page -->
+  <path d="M 282,168 Q 275,158 210,163 L 210,272 Q 275,277 282,268 Z" fill="url(#bookGrad)"/>
+  <!-- Spine shadow -->
+  <rect x="207" y="163" width="6" height="110" fill="rgba(0,0,0,0.18)"/>
+  <!-- Left page text lines -->
+  <rect x="150" y="185" width="50" height="5" rx="2.5" fill="rgba(255,255,255,0.75)"/>
+  <rect x="150" y="198" width="44" height="5" rx="2.5" fill="rgba(255,255,255,0.75)"/>
+  <rect x="150" y="211" width="50" height="5" rx="2.5" fill="rgba(255,255,255,0.75)"/>
+  <rect x="150" y="224" width="38" height="5" rx="2.5" fill="rgba(255,255,255,0.75)"/>
+  <rect x="150" y="237" width="48" height="5" rx="2.5" fill="rgba(255,255,255,0.75)"/>
+  <rect x="150" y="250" width="42" height="5" rx="2.5" fill="rgba(255,255,255,0.75)"/>
+  <!-- Right page text lines -->
+  <rect x="220" y="185" width="50" height="5" rx="2.5" fill="rgba(255,255,255,0.75)"/>
+  <rect x="220" y="198" width="46" height="5" rx="2.5" fill="rgba(255,255,255,0.75)"/>
+  <rect x="220" y="211" width="50" height="5" rx="2.5" fill="rgba(255,255,255,0.75)"/>
+  <rect x="220" y="224" width="40" height="5" rx="2.5" fill="rgba(255,255,255,0.75)"/>
+  <rect x="220" y="237" width="50" height="5" rx="2.5" fill="rgba(255,255,255,0.75)"/>
+  <rect x="220" y="250" width="36" height="5" rx="2.5" fill="rgba(255,255,255,0.75)"/>
+
+  <!-- ══════════════════ LAUREL WREATHS ══════════════════ -->
+  <!-- LEFT BRANCH — 8 leaves along an arc -->
+  <g fill="#1A4A1A">
+    <ellipse cx="126" cy="175" rx="9" ry="5" transform="rotate(-75 126 175)"/>
+    <ellipse cx="112" cy="195" rx="10" ry="5" transform="rotate(-65 112 195)"/>
+    <ellipse cx="102" cy="218" rx="10" ry="5" transform="rotate(-50 102 218)"/>
+    <ellipse cx="97"  cy="242" rx="10" ry="5" transform="rotate(-35 97 242)"/>
+    <ellipse cx="98"  cy="268" rx="10" ry="5" transform="rotate(-20 98 268)"/>
+    <ellipse cx="108" cy="292" rx="10" ry="5" transform="rotate(-5  108 292)"/>
+    <ellipse cx="122" cy="312" rx="10" ry="5" transform="rotate(12  122 312)"/>
+    <ellipse cx="141" cy="328" rx="10" ry="5" transform="rotate(25  141 328)"/>
+    <!-- stems -->
+    <line x1="130" y1="164" x2="155" y2="340" stroke="#1A4A1A" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <!-- RIGHT BRANCH -->
+  <g fill="#1A4A1A">
+    <ellipse cx="294" cy="175" rx="9" ry="5" transform="rotate(75 294 175)"/>
+    <ellipse cx="308" cy="195" rx="10" ry="5" transform="rotate(65 308 195)"/>
+    <ellipse cx="318" cy="218" rx="10" ry="5" transform="rotate(50 318 218)"/>
+    <ellipse cx="323" cy="242" rx="10" ry="5" transform="rotate(35 323 242)"/>
+    <ellipse cx="322" cy="268" rx="10" ry="5" transform="rotate(20 322 268)"/>
+    <ellipse cx="312" cy="292" rx="10" ry="5" transform="rotate(5  312 292)"/>
+    <ellipse cx="298" cy="312" rx="10" ry="5" transform="rotate(-12 298 312)"/>
+    <ellipse cx="279" cy="328" rx="10" ry="5" transform="rotate(-25 279 328)"/>
+    <!-- stems -->
+    <line x1="290" y1="164" x2="265" y2="340" stroke="#1A4A1A" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- ══════════════════ BOTTOM RIBBON BANNER ══════════════════ -->
+  <!-- Outer black ribbon shape with arrow tails -->
+  <path d="M 50,330 L 30,348 L 50,360 L 370,360 L 390,348 L 370,330 Z" fill="#111111"/>
+  <!-- Inner white fill -->
+  <path d="M 54,333 L 37,348 L 54,357 L 366,357 L 383,348 L 366,333 Z" fill="white"/>
+  <!-- Slogan text in red italic -->
+  <text x="210" y="353" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#CC1500" font-style="italic" font-weight="bold">Knowledge is Power</text>
+</svg>
