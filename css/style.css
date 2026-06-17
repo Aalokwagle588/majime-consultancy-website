@@ -921,3 +921,9 @@ p  { color:var(--muted); font-size:16px; line-height:1.78; }
   .team-card-img { object-position: center 20%; }
 }
 
+/* Managing Director photo — half the normal card height */
+#team-md .team-card-img-wrap {
+  aspect-ratio: 4 / 3;
+}
+
+
